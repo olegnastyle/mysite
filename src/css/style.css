@@ -78,7 +78,6 @@ a:hover{
 
 .about{
     width: 100%;
-    height: calc(100% - 1076px);
     background: #fcfdfd;
     text-align: center;
 }
@@ -115,5 +114,5 @@ a:hover{
 
 .skills{
     width: 100%;
-    height: calc(100% - 1792px);
+    height: calc(100% - 2000px);
 }
