@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+
+}
+
+.logo{
+    color: #f1f1f1;
+    font-size: 28px;
+    line-height: 60px;
+    padding-left: 388px;
+    float: left;
+}
+
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li{
+    float: left;
+    line-height: 60px;
+    color: #f1f1f1;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+a{
+    color: #f1f1f1;
+}
+
+a:hover{
+    color: coral;
+}
+
+.main{
+    width: 100%;
+    height: calc(100% - 60px);
+    background: url(../img/boy4.png) 98% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+.title__countainer{
+    float: left;
+    margin: 282px 0px 0px 384px;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__countainer H1{
+    
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__countainer H4{
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__countainer input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 40px 8px 0px 8px;
+}
+
+.about{
+    width: 100%;
+    height: calc(100% - 1076px);
+    background: #fcfdfd;
+    text-align: center;
+}
+
+.titleHeader{
+    margin-top: 80px;
+    margin-bottom: 95px;
+    font-size: 38px;
+    text-decoration: underline 4px solid #d17700;
+    
+    
+}
+
+.about p{
+    color: #3f495a;
+    margin: 300xp;
+    padding: 12px;
+}
+
+.aboutParagraf{
+    text-align: left;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.buttonAbout input{
+    background: none;
+    border: 2px solid #6f707e;
+    color: #6f707e;
+    border-radius: 5px;
+    padding: 8px 8px 8px 24px;
+    background: url(../img/download.png) no-repeat 5px;
+}
+
+.skills{
+    width: 100%;
+    height: calc(100% - 1792px);
+}
