@@ -114,5 +114,235 @@ a:hover{
 
 .skills{
     width: 100%;
-    height: calc(100% - 2000px);
+    height: 518px;
+    text-align: center;
+    background: url(../img/bg-three.jpg) no-repeat center;
+}
+
+.skills .titleHeader{
+    padding: 78px;
+}
+
+.skillsInfo{
+    width: 800px;
+    margin: 0 auto;
+}
+.skillsInfo li{
+    float: left;
+    display: block;
+    width: 200px;
+    top: 20%;
+}
+
+.skillsInfo span{
+   color: #cf7600;
+    font-size: 17px;
+}
+
+.skillsInfo img{
+    padding-bottom: 37px;
+}
+
+.cases{
+    width: 100%;
+    height: 1000px;
+    background: #fcfdfd;
+}
+
+.casesCenter{
+    text-align: center;
+}
+
+.cases p{
+    color: #3f495a;
+    padding-bottom: 30px;
+}
+
+.casesTable{
+    width: 1169px;
+    margin: 0 auto;
+}
+
+.casesTable span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.casesTable p{
+    font-size: 17px;
+}
+
+.tableLeft{
+    width: 300px;
+    float: left;
+}
+
+.tableRight{
+    
+    width: 1000px;
+}
+
+.calculation{
+    width: 600px;
+    margin: 0 auto;
+    height: 450px;
+}
+
+.calculation label{
+    display: block;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cost_calc{
+    text-align: center;
+    font-size: 32px;
+    margin-left: 200px;
+    font-weight: bold;
+}
+
+.calculation p{
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#list{
+    display: block;
+    font-size: 16px; 
+    font-family: sans-serif; 
+    color: #737373;
+    padding: .6em 1.4em .5em .8em; width: 100%;
+    background-color: #eeeeee;
+    margin-bottom: 20px;
+}
+
+.hr{
+    display: block;
+    border-bottom: 2px #d1d1d1;
+    width: 100%;
+}
+
+.statistics{
+    width: 100%;
+    background: url(../img/statistics.jpg) no-repeat;
+    height: 450px;
+}
+
+.statistics .titleHeader{
+    margin: 0 auto;
+    width: 450px;
+    padding-top: 100px;
+}
+
+.item_stat{
+    float: left;
+    text-align: center;
+    padding-top: 88px;
+    padding-left: 240px;
+}
+
+.statistics h4{
+    padding: 20px;
+    font-weight: bold;
+    font-size: 23px;
+}
+.statistics p{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.reviews{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.reviews p{
+    font-size: 13px;
+    color: #243042;
+    width: 690px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.reviews b{
+    font-weight: bolder;
+}
+
+.reviews img{
+    padding-bottom: 20px;
+}
+
+input[type='radio'],
+label {
+  cursor: pointer;
+}
+
+input[type='radio'] {
+  position: relative;
+  height: 22px;
+  width: 22px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+input[type='radio']::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #cfd2d7;
+}
+
+input[type='radio']:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: coral;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+}
+
+.contact{
+    width: 100%;
+    height: 800px;
+    background: url(../img/contact.png) no-repeat;
+    text-align: center;
+    color: #ffffff;
+}
+
+.contact .titleHeader{
+    
+}
+
+.item_contact{
+    width: 500px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.item_contact li{
+    float: left;
+    padding-left: 30px;
+}
+
+.item_contact ul p{
+    padding-top: 5px;
+}
+
+ .contact h4{
+     font-size: 16px;
+     font-weight: bold;
+     padding: 35px;
 }
