@@ -55,7 +55,7 @@ li a{
 
 li a:hover{
     color: #bea67c;
-    transition: color 1s;
+    transition: ease .1s;
     font-size: 16px;
     /* text-decoration: underline; */
     border: 1px solid #bea67c;
@@ -83,23 +83,24 @@ content h1{
 
 .my_info{
     border: 2px solid #fff; /* Параметры рамки */
-    background: #fff; /* Цвет фона */
-    font-size: 24px; /* Размер текста */
-    padding: 12px 0px; /* Поля вокруг текста */
-    font-family: proximanova_regular;
     background: none;
+    font-size: 24px; /* Размер текста */
+    font-family: proximanova_regular;
     width: 307px;
     height: 58px;
     margin-left: 610px;
-    text-align: center;
+    
 }
 
 .my_info a{
     color: #fff;
     display: block;
-    width: 307px;
-    height: 58px;
+    height: 100%;
+    margin-top: 14px;
+    text-align: center;
     background: url(../img/icon/down.png) no-repeat 207px 7px;
-    margin-left: -20px;
 }
 
+.my_info a:hover{
+    background: #fff;
+}
