@@ -1,0 +1,105 @@
+body{
+	font-style: 16px;
+	background: url('../img/bg.jpg') no-repeat center top / cover;
+	height: 1043px;
+	padding-top: 31px;
+    font-family: proximanova_regular, proximanova_bold, proximanova_light;
+}
+
+@font-face {
+    font-family: proximanova_bold;
+    src: url('../fonts/proximanova_bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: proximanova_light;
+    src: url('../fonts/proximanova_light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: proximanova_regular;
+    src: url('../fonts/proximanova_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+	display: flex;
+	
+}
+
+.logo{
+	margin-right: 120px;
+	margin-left: 310px;
+    display: block;
+    width: 355px;
+}
+
+li{
+	float: left;
+	color: #fff;
+	font-size: 15px;
+	padding-left: 60px;
+	text-transform: uppercase;
+    font-family: proximanova_bold;
+}
+
+li a{
+    color: #fff;
+    font-size: 15px;
+}
+
+li a:hover{
+    color: #bea67c;
+    transition: color 1s;
+    font-size: 16px;
+    /* text-decoration: underline; */
+    border: 1px solid #bea67c;
+    border-width: 0px 1px 0px 1px; /* Толщина границы */
+    padding: 7px;
+}
+
+content h4{
+    font-size: 52.4px;
+    margin-top: 290px;
+    margin-left: 330px;
+    color: #bea67c;
+    writing-mode: vertical-rl;
+    font-family: proximanova_bold;
+}
+
+content h1{
+    font-size: 100px;
+    color: #bea67c;
+    text-transform: uppercase;  
+    margin-left: 610px;
+    margin-top: -140px;
+    font-family: proximanova_bold;
+}
+
+.my_info{
+    border: 2px solid #fff; /* Параметры рамки */
+    background: #fff; /* Цвет фона */
+    font-size: 24px; /* Размер текста */
+    padding: 12px 0px; /* Поля вокруг текста */
+    font-family: proximanova_regular;
+    background: none;
+    width: 307px;
+    height: 58px;
+    margin-left: 610px;
+    text-align: center;
+}
+
+.my_info a{
+    color: #fff;
+    display: block;
+    width: 307px;
+    height: 58px;
+    background: url(../img/icon/down.png) no-repeat 207px 7px;
+    margin-left: -20px;
+}
+
